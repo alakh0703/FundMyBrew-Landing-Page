@@ -9,6 +9,7 @@ import donVector from "@/assets/don.jpg"
 import fanVector from "@/assets/abc.jpg"
 import Image from 'next/image';
 
+
 export default function InfoCards() {
     const [ref, inView] = useInView({
         triggerOnce: true, // Trigger animation only once

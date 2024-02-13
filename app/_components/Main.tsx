@@ -7,6 +7,12 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Heart } from "lucide-react";
 import Image from "next/image";
 import { Lilita_One } from "next/font/google";
+import ava1 from "@/assets/ava1.png"
+import ava2 from "@/assets/ava2.jpg"
+import ava3 from "@/assets/ava3.jpg"
+import ava4 from "@/assets/ava4.png"
+import ava5 from "@/assets/ava5.png"
+import ava6 from "@/assets/ava6.jpg"
 
 const inter = Lilita_One({ weight: ['400'], style: "normal", subsets: ["latin"] });
 
@@ -31,10 +37,10 @@ export default function Main() {
 
                 >
                     <div className="w-[50px] h-[50px] rounded-full overflow-hidden">
-                        <Image src={DhrumitIcon} width={150} height={150} alt="profile_image" />
+                        <Image src={ava1} width={150} height={150} alt="profile_image" />
                     </div>
-                    <div className="w-full text-center text-[0.8rem] font-bold leading-4 mt-3 mb-3">Dhrumit Patel is Aspiring <br />software engineer with a passion</div>
-                    <div className="flex justify-center items-center text-[0.8rem]"><Heart size={15} fill="" className="mr-1" />69 supporters</div>
+                    <div className="w-full text-center text-[0.8rem] font-bold leading-4 mt-3 mb-3">Nikki is Aspiring <br />software engineer with a passion</div>
+                    <div className="flex justify-center items-center text-[0.8rem]"><Heart size={15} fill="" className="mr-1" />99 supporters</div>
                 </motion.div>
                 <motion.div className="hidden w-[180px] h-[180px] rounded-lg mb-2 ml-28 flex-col pt-2 items-center shadow-lg hover:scale-[1.02] -rotate-12 lg:flex"
 
@@ -46,7 +52,7 @@ export default function Main() {
 
                 >
                     <div className="w-[50px] h-[50px] rounded-full overflow-hidden">
-                        <Image src={GitanshIcon} width={150} height={150} alt="profile_image" />
+                        <Image src={ava2} width={150} height={150} alt="profile_image" />
                     </div>
                     <div className="w-full text-center text-[0.8rem] font-bold leading-4 mt-3 mb-3">Gitansh Mittal is Aspiring <br />Data Scientist with a passion</div>
                     <div className="flex justify-center items-center text-[0.8rem]"><Heart size={15} fill="" className="mr-1" />377 supporters</div>
@@ -60,10 +66,10 @@ export default function Main() {
                     transition={{ duration: 0.5, delay: 1.6 }}
                 >
                     <div className="w-[50px] h-[50px] rounded-full overflow-hidden">
-                        <Image src={DhrumitIcon} width={150} height={150} alt="profile_image" />
+                        <Image src={ava3} width={150} height={150} alt="profile_image" />
                     </div>
-                    <div className="w-full text-center text-[0.8rem] font-bold leading-4 mt-3 mb-3">Dhrumit Patel is Aspiring <br />software engineer with a passion</div>
-                    <div className="flex justify-center items-center text-[0.8rem]"><Heart size={15} fill="" className="mr-1" />3 supporters</div>
+                    <div className="w-full text-center text-[0.8rem] font-bold leading-4 mt-3 mb-3">Mi Cha is Social Media <br />influencer </div>
+                    <div className="flex justify-center items-center text-[0.8rem]"><Heart size={15} fill="" className="mr-1" />8990 supporters</div>
                 </motion.div>
             </div>
             <div className="w-[60%] flex flex-col items-center pt-[50px] md:pt-[100px]">
@@ -82,9 +88,9 @@ export default function Main() {
 
                 >
                     <div className="w-[50px] h-[50px] rounded-full overflow-hidden">
-                        <Image src={DhrumitIcon} width={150} height={150} alt="profile_image" />
+                        <Image src={ava6} width={150} height={150} alt="profile_image" />
                     </div>
-                    <div className="w-full text-center text-[0.8rem] font-bold leading-4 mt-3 mb-3">Dhrumit Patel is Aspiring <br />software engineer with a passion</div>
+                    <div className="w-full text-center text-[0.8rem] font-bold leading-4 mt-3 mb-3">Marco is a student <br /></div>
                     <div className="flex justify-center items-center text-[0.8rem]"><Heart size={15} fill="" className="mr-1" />3 supporters</div>
                 </motion.div>
                 <motion.div className="hidden w-[180px] h-[180px] rounded-lg mb-2 ml-20 flex-col pt-2 items-center shadow-lg hover:scale-[1.02] rotate-12 lg:flex"
@@ -96,10 +102,10 @@ export default function Main() {
 
                 >
                     <div className="w-[50px] h-[50px] rounded-full overflow-hidden">
-                        <Image src={DhrumitIcon} width={150} height={150} alt="profile_image" />
+                        <Image src={ava5} width={150} height={150} alt="profile_image" />
                     </div>
-                    <div className="w-full text-center text-[0.8rem] font-bold leading-4 mt-3 mb-3">Dhrumit Patel is Aspiring <br />software engineer with a passion</div>
-                    <div className="flex justify-center items-center text-[0.8rem]"><Heart size={15} fill="" className="mr-1" />3 supporters</div>
+                    <div className="w-full text-center text-[0.8rem] font-bold leading-4 mt-3 mb-3">Alakh is Programmer<br />who just graduated</div>
+                    <div className="flex justify-center items-center text-[0.8rem]"><Heart size={15} fill="" className="mr-1" />2 supporters</div>
                 </motion.div>
                 <motion.div className="hidden w-[180px] h-[180px] rounded-lg mb-2 mr-6 flex-col pt-2 items-center shadow-lg hover:scale-[1.02] -rotate-12 lg:flex"
                     initial={{ x: 100, rotate: 0, opacity: 0 }}
@@ -109,10 +115,10 @@ export default function Main() {
                     transition={{ duration: 0.5, delay: 1.6 }}
                 >
                     <div className="w-[50px] h-[50px] rounded-full overflow-hidden">
-                        <Image src={DhrumitIcon} width={150} height={150} alt="profile_image" />
+                        <Image src={ava4} width={150} height={150} alt="profile_image" />
                     </div>
-                    <div className="w-full text-center text-[0.8rem] font-bold leading-4 mt-3 mb-3">Dhrumit Patel is Aspiring <br />software engineer with a passion</div>
-                    <div className="flex justify-center items-center text-[0.8rem]"><Heart size={15} fill="" className="mr-1" />3 supporters</div>
+                    <div className="w-full text-center text-[0.8rem] font-bold leading-4 mt-3 mb-3">David is Freelancer <br />with passion for marketing</div>
+                    <div className="flex justify-center items-center text-[0.8rem]"><Heart size={15} fill="" className="mr-1" />700 supporters</div>
                 </motion.div>
             </div>
         </motion.div>
