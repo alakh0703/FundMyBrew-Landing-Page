@@ -9,9 +9,9 @@ export default function About() {
     return (
         <div className="w-[100%] flex flex-col pl-[10%] pr-[10%] lg:pl-[32%] lg:pr-[30%]" >
 
-            <p className={cn(inter.className, "text-center text-8xl pt-10 pb-2")}> Our Journey</p>
+            <p className={cn(inter.className, "text-center text-4xl md:text-8xl pt-10 pb-2")}> Our Journey</p>
             <p className="text-left leading-9">
-                <span className="text-3xl">A</span>t FundMyBrew, we envision a world where every individual is a creator, and our mission is to empower a million people to thrive through their creative endeavors by 2030. <br /><br />
+                At FundMyBrew, we envision a world where every individual is a creator, and our mission is to empower a million people to thrive through their creative endeavors by 2030. <br /><br />
 
                 Founded in 2024, FundMyBrew was born out of a shared passion for supporting creators and simplifying the path to financial independence. Our founders, Alakh Patel, initially navigated the challenges of relying on advertising income for their creative pursuits. Recognizing the limitations of this model, we set out to create a platform that transcends transactional interactions, starting with a name that reflects the essence of meaningful connections. <br /><br />
 

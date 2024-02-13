@@ -13,7 +13,7 @@ export function FaqAccordian() {
     return (
         <div className="w-full flex justify-center pt-10 flex-col items-center">
             <div className="w-full mb-20">
-                <p className={cn(inter.className, "text-center text-6xl mb-5")}>Frequently Asked Questions</p>
+                <p className={cn(inter.className, "text-center text-3xl md:text-6xl mb-5")}>Frequently Asked Questions</p>
                 <p className="text-center opacity-80 pl-10 pr-10">If you don&apos;t find your answers here, feel free to contact us at <span className="text-gray-500 underline">alakhhbn007@gmail.com</span></p>
             </div>
             <Accordion type="single" collapsible className="w-[90%] md:w-[35%]">

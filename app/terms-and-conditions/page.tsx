@@ -2,8 +2,8 @@
 export default function TermsAndConditions() {
     return (
         <div className="w-full flex flex-col items-center">
-            <h1 className="text-center text-5xl mt-10 font-semibold">Terms of use</h1>
-            <div className="w-[80%] lg:w-[45%] pt-12 pb-[100px]">
+            <h1 className="text-center text-2xl md:text-5xl mt-10 font-semibold">Terms of use</h1>
+            <div className="w-[80%] lg:w-[45%] md:pt-12 pb-[100px]">
                 <p className="mt-10 mb-4 font-semibold">Account Creation and Responsibility</p>
                 <p>To register for a FundMyBrew account, you must be 18 or older. You&apos;re accountable for your account and its activities. While browsing is open without an account, certain features require registration. Provide accurate information during registration, and don&apos;t impersonate others. Offensive names or violations of rights may result in account cancellation.</p>
                 <p className="mt-10 mb-4 font-semibold">User Conduct Guidelines</p>

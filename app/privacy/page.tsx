@@ -2,7 +2,7 @@
 export default function Privacy() {
     return (
         <div className="w-full flex flex-col items-center">
-            <h1 className="text-center text-5xl mt-10 font-semibold">Privacy Policy</h1>
+            <h1 className="text-center text-2xl md:text-5xl mt-10 font-semibold">Privacy Policy</h1>
             <div className="w-[80%] lg:w-[45%] pt-12 pb-[100px]">
                 <p className="text-left">Welcome to FundMyBrew, the platform designed to empower creators and their supporters. Your privacy is our top priority, and we are committed to ensuring the security of your personal information as you engage with our services.</p>
                 <p className="mt-10 mb-4 font-semibold">Insights into Your Visit</p>

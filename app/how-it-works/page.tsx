@@ -6,11 +6,11 @@ const HowItWorks: React.FC = () => {
         <div className="bg-[#fdfdfd] flex justify-center items-center">
 
             <div className="container py-8 w-[90%] lg:w-[50%]">
-                <h1 className="text-3xl font-bold mb-10">How It Works</h1>
+                <h1 className="text-2xl md:text-3xl font-bold mb-10">How It Works</h1>
 
                 {/* Section 1: Introduction */}
                 <section className="mb-8">
-                    <h2 className="text-xl font-bold mb-8">Welcome to FundMyBrew - Where Your Creativity Meets Support!</h2>
+                    <h2 className="text-xl md:font-bold mb-8 shadow-sm">Welcome to FundMyBrew - Where Your Creativity Meets Support!</h2>
                     <p>
                         Welcome to FundMyBrew, the platform designed to empower creators like you. Whether you&apos;re an artist, writer,
                         musician, or any other creative individual, FundMyBrew provides a space where your community can support your
@@ -20,7 +20,7 @@ const HowItWorks: React.FC = () => {
 
                 {/* Section 2: Overview */}
                 <section className="mb-8">
-                    <h2 className="text-xl font-bold mb-8">How FundMyBrew Works in 3 Simple Steps</h2>
+                    <h2 className="text-xl mb-8">How FundMyBrew Works in 3 Simple Steps</h2>
 
                     {/* Step 1: Create Your Brew */}
                     <div className="mb-4 shadow-xl p-[20px] pt-[50px]">
