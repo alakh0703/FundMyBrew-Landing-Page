@@ -4,7 +4,9 @@ Welcome to FundMyBrew, where community and creativity come together! 🌟
 
 ## About
 
-FundMyBrew is a vibrant landing page for an exciting web app inspired by the spirit of BuyMeACoffee. Our platform is designed to connect passionate creators with supporters who appreciate their craft, with a special focus on brewing enthusiasts.
+FundMyBrew is a vibrant landing page for an exciting web app inspired by the spirit of BuyMeACoffee. Please note that it's a landing page designed to showcase the concept, not an actual fully-fledged app.
+
+Our platform is designed to connect passionate creators with supporters who appreciate their craft, with a special focus on brewing enthusiasts.
 
 ## Key Features
 
