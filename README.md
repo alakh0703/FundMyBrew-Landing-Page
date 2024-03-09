@@ -26,6 +26,6 @@ Our platform is designed to connect passionate creators with supporters who appr
 
 ## Get Started
 
-Visit our website [FundMyBrew](https://www.fundmybrew.com) to experience the magic of supporting and connecting with passionate brewers.
+Visit our website [FundMyBrew]((https://fund-my-brew-landing-page.vercel.app/)) to experience the magic of supporting and connecting with passionate brewers.
 
 Join FundMyBrew and be a part of the journey where every sip tells a story! ☕✨
